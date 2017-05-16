@@ -1,0 +1,334 @@
+body{
+	margin: 0;
+	padding: 0;
+    font-family: 'Arial', sans-serif;
+	font-size: 14px;
+    background-image: url(..//img/wood.png);
+    padding: 50px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    background: #ffffff;
+    max-width: 960px;
+	margin: 0 auto;
+	padding: 0 40px;
+	-webkit-box-shadow: 0 0 20px #898989;
+	   -moz-box-shadow: 0 0 20px #898989;
+	        box-shadow: 0 0 20px #898989;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+                                   /*HEADER BEGIN*/
+
+.headernav img{
+    display: inline-block;
+	margin-top: 20px;
+}
+.headernav nav{
+    float: right;
+}
+.headernav nav li{
+    display: inline-block;
+    margin: 35px 30px;
+}
+.headernav nav li a{
+    color: #b8b8b8;
+}
+.headernav nav li a:hover{
+    color: #8a6540;
+}
+.headernav nav .menu_toggle{
+    display: none;
+    line-height: 50px; 
+    font-size: 14px; 
+    cursor: pointer;
+}
+.headernav nav .menu_toggle{
+    color: #b8b8b8;
+}
+.headernav nav .menu_toggle:hover{
+    color: #8a6540;
+}
+.menu_check{
+    display: none;
+}
+.textheader{
+    color: #c7c7c7;
+    line-height: 30px;
+    letter-spacing: 1px;
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+    padding: 15px;
+}
+.textheader a{
+    color: #8c6641;
+    font-weight: bold;
+}
+                                /*HEADER END*/
+                                /*MAIN BEGIN*//*ARTICLE BEGIN*/
+
+article,  aside{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+article{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0px -15px;
+    overflow: hidden;
+    max-width: 70%;
+    float: left;
+}
+article h2{
+    font-size: 14px;
+	color: #939393;
+    padding: 5px;
+}
+section span{
+	line-height: 25px;
+    color: #bdbdbd;
+    display: inline-block;
+    padding: 5px;
+}
+article section{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+	float: left;
+	width: -webkit-calc(50% - 30px);
+	width: -moz-calc(50% - 30px);
+	width: calc(50% - 30px);
+    margin: 15px;
+}
+article section:nth-child(2n+3){
+	clear: both;
+}
+article section a{
+	display: block;
+	-moz-border-radius: 5px;
+	     border-radius: 5px;
+	border: 1px solid #989898;
+	padding: 5px;
+}
+article section img{
+	width: 100%;
+}
+
+.button{
+    float: right;
+    clear: both;
+}
+input{
+    background: #87af3b;
+    margin-right: 20px;
+    padding: 10px 17px;
+    -moz-border-radius: 7px;
+         border-radius: 7px;
+    color: #eff2eb;
+}
+                                                 /*ARTICLE END*/
+                                                 /*ASIDE BEGIN*/
+aside{
+    padding: 20px;
+    overflow: hidden;
+}
+.wrapper2 {
+	position: relative;
+}
+.sidebar{
+    background: #cbcbcb;
+    color: #939393;
+    line-height: 25px;
+    padding: 20px;
+    font-size: 12px;
+    position: relative;
+}
+.sidebar img{
+    position: absolute;
+    right: 10%;
+    top: 100%;
+}
+.s-f{
+    font-size: 12px;
+	width: 85%;
+	float: left;
+}
+.follow{
+    color: #939393;
+    clear: both;
+	text-align: right;
+    margin-top: 12%;
+}
+.bird{
+	max-width: 50px;
+	position: absolute;
+    top: 75%;
+    right: -2%;
+}
+.hide .menu_toggle2{
+    display: none;
+    line-height: 50px; 
+    font-size: 14px; 
+    cursor: pointer;
+}
+.hide .menu_toggle2{
+    color: #000000;
+}
+.hide .menu_toggle2:hover{
+    color: #969696;
+}
+.hide .menu_check2{
+    display: none;
+}
+nav.nav2{
+    clear: both;
+}
+nav.nav2 h3.navigation{
+    font-size: 14px;
+    color: #404040;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+}
+nav.nav2 ul.menu{
+    font-size: 14px;
+    color: #939393;
+    line-height: 2.5;
+    text-align: left;
+    padding: 0px;
+}
+nav.nav2 ul.menu li{
+    border-top: 1px solid #eeeeee;
+}
+nav.nav2 li.last{
+    border-bottom: 1px solid #eeeeee;
+}
+nav.nav2 li a{
+    color: #939393;
+}
+nav.nav2 ul.menu li:hover{
+    background: #f9f9f9;
+}
+nav.nav2 h3.contact{
+    font-size: 14px;
+    color: #404040;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: bold;
+}
+nav.nav2 ul.con{
+    font-size: 14px;
+    color: #939393;
+    line-height: 2.5;
+    text-align: left;
+    padding: 0px;
+}
+
+                              /*MAIN END*//*ASIDE END*/
+                              /*FOOTER BEGIN*/
+                              
+footer{
+    border-top: 2px solid #eeeeee;
+}
+footer span{
+    font-size: 12px;
+	color: #b8b8b8;
+    display: block;
+	padding: 30px 0;
+}
+.footercontent{
+	float: right;
+}
+.footercontent a{
+	display: inline-block;
+	margin: 15px 15px;
+}
+.footercontent a img{
+	display: inline-block;
+    vertical-align: middle;
+}
+.footercontent a span{
+	padding: 15px 15px;
+    display: inline-block;
+}
+                                  /*FOOTER END*/
+
+                                /*@media screens*/
+
+@media screen and (max-width: 1050px) {
+    .headernav nav{
+        float: none;
+        text-align:center;
+        border-top: 2px solid #eeeeee;
+    }
+    
+    .headernav img{
+        padding: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 860px) {
+    article{
+        float: none;
+        max-width: none;
+    }
+    bird{
+	   position: relative;
+    }
+    .footercontent{
+        float: none;
+    }
+}
+@media screen and (max-width: 750px) {
+    body{
+        padding: 20px;
+    }
+    .headernav nav .menu_toggle{
+        display: block;
+    }
+    .headernav nav ul{
+        display: none;
+    }
+    .headernav nav ul li{
+        display: block;
+    }
+    .menu_check:checked + ul{
+        display: block;
+    }
+    nav.nav2 h3.navigation{
+        display: none;
+    }
+    .hide .menu_toggle2{
+        display: block;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .hide ul{
+        display: none;
+    }
+    .hide #menu_check2:checked + ul{
+        display: block;
+    }
+}
+@media screen and (max-width: 620px) {
+    article section{
+	    width: auto;
+    }
+    body{
+        padding: 0px;
+    }
+}
+    
